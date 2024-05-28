@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char *ft_strupcase(char *str)
+char *ft_strlowcase(char *str)
 {
 	int i;
 
@@ -18,6 +18,6 @@ char *ft_strupcase(char *str)
 int main(int argc, char const *argv[])
 {
 	char str[] = "Veeraphab Sutthipbul BKK";
-	printf("\n%s\n", ft_strupcase("K I W"));
+	printf("\n%s\n", ft_strlowcase("str"));
 	return 0;
 }
