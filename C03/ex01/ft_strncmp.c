@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int ft_strcmp(char *s1, char *s2, int n)
+int ft_strncmp(char *s1, char *s2, int n)
 {
     int i;
     int cmp;
@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 {
     char *a = "Ab 0";
     char *b = "Ab b";
-    printf("\nform strcmp = %d\n", strncmp(a, b, 3));
-    printf("form ftstrcmp = %d\n", ft_strcmp(a, b, 3));
+    printf("\nform strcmp = %d\n", strncmp(a, b, 4));
+    printf("form ftstrcmp = %d\n", ft_strncmp(a, b, 4));
     return 0;
 }
