@@ -3,36 +3,32 @@
 
 char *ft_strstr(char *str, char *to_find)
 {
-	int i;
-	int j;
-	int positon;
+    int i;
+    int j;
 
-	i = 0;
-	j = 0;
-	positon = 0;
-	while (str[i] != 0)
-	{
-		if (to_find[j] == str[i])
-		{
-			positon = i;
-			while (to_find[j] != 0)
-			{
-				if (to_find[j] != str[i + j])
-				{
-					return (0);
-				}
-				j++;
-			}
-		}
-		i++;
-	}
-	return (str + positon);
+    if (to_find[0] == '\0')
+        return str; 
+
+    i = 0;
+    while (str[i] != '\0')
+    {
+        j = 0;
+        while (to_find[j] != '\0' && str[i + j] == to_find[j])
+        {
+            j++;
+        }
+        if (to_find[j] == '\0')
+            return &str[i]; 
+        i++;
+    }
+    return (0); 
 }
+
 
 int main(void)
 {
 	char str[] = "I wanna go to New Zealand";
-	char search[] = "land";
+	char search[] = "x";
 	char *p = ft_strstr(str, search);
 	if (p != NULL)
 	{
@@ -46,3 +42,4 @@ int main(void)
 	printf("\n%s\n", strstr(str, search));
 	return (0);
 }
+
