@@ -45,8 +45,8 @@ int ft_atoi(char *str)
 	return (nb * i);
 }
 
-// int main(void)
-// {
-// 	printf("%d", ft_atoi("  ---+--+1234ab567"));
-// 	return 0;
-// }
+int main(void)
+{
+	printf("%d", ft_atoi("  ---+--+1234ab567"));
+	return 0;
+}
