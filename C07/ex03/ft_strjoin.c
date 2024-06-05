@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 
 int	length(char *dest)
 {
