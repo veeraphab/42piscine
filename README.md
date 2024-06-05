@@ -1,2 +1,2 @@
 # 42piscine
-All the exercise of piscine 
+These are all the exercises from the piscine that I have completed.
