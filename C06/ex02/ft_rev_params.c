@@ -9,12 +9,12 @@ void	ft_putstr(char *str)
 	}
 	 write(1, "\n", 1);
 }
-int main(int argc, char *argv[])
+int	main(int argc, char *argv[])
 {
 	if (argc > 1)
 		while (--argc)
 		{
 			ft_putstr(argv[argc]);
-		}
+		}		
 	return 0;
 }
