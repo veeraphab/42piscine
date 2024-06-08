@@ -1,15 +1,17 @@
 int	ft_sqrt(int nb)
 {
-	int sq;
-	int i;
+	long int	sq;
+	long int	i;
+    long int	nbl;
 
+	nbl = nb;
 	i = 0;
-	if (nb == 0)
+	if (nbl == 0)
 		return (0);
-	while (i * i <= nb)
+	while (i * i <= nbl)
 	{
 		sq = i * i;
-		if (sq == nb)
+		if (sq == nbl)
 			return (i); 
 		i++;
 	}
