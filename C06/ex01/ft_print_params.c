@@ -13,11 +13,12 @@ int	main(int argc, char *argv[])
 {
 	int i;
 
-	i = 0;
+	i = 1;
 	if (argc > 1)
 		while (i < argc)
 		{
 			ft_putstr(argv[i]);
+			i++;
 		}
 	return 0;
 }

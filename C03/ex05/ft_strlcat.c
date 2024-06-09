@@ -37,17 +37,17 @@ unsigned int ft_strlcat(char *dest,char *src, unsigned int size)
 	
 	return len_d + len_s;
 }
-int main(void)
-{
-	int size = 10;
-	char a[128] = "Too ";
-	char b[] = "Sweet!!!";
+// int main(void)
+// {
+// 	int size = 10;
+// 	char a[128] = "Too ";
+// 	char b[] = "Sweet!!!";
 
-	char x[128] = "Too ";
-	char y[] = "Sweet!!!";
+// 	char x[128] = "Too ";
+// 	char y[] = "Sweet!!!";
 
-	int l = ft_strlcat(a, b, size);
-	int l1 = strlcat(x, y, size);
-	printf("\n%d, %s\n", l, a);
-	printf("\n%d, %s\n", l1, x);
-}
+// 	int l = ft_strlcat(a, b, size);
+// 	int l1 = strlcat(x, y, size);
+// 	printf("\n%d, %s\n", l, a);
+// 	printf("\n%d, %s\n", l1, x);
+// }

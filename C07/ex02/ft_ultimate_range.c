@@ -4,7 +4,10 @@ int ft_ultimate_range(int **range, int min, int max)
 	int i;
 	int size;
 	if (min >= max)
-		return (0);
+    {
+    	*range = 0;
+   		return 0;
+    }
 	size = max - min;
 	*range = (int *)malloc(size * 4);
 	if (*range == 0)

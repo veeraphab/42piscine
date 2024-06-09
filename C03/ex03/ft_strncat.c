@@ -29,13 +29,13 @@ char *ft_strncat(char *dest, char *src, unsigned int nb)
     return (dest);
 }
 
-int main(void)
-{
-    char a[] = "Mon";
-    char b[] = "tana!!";
+// int main(void)
+// {
+//     char a[] = "Mon";
+//     char b[] = "tana!!";
 
-    ft_strncat(a, b,4);
-    // strncat(a,b,4);
+//     ft_strncat(a, b,4);
+//     // strncat(a,b,4);
 
-    printf("\n%s\n", a);
-}
+//     printf("\n%s\n", a);
+// }

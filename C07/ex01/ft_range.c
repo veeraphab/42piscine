@@ -9,9 +9,7 @@ int *ft_range(int min, int max)
     nb = (int *)malloc((max - min) * 4);
     i = 0;
     if (nb == 0)
-    {
         return 0;
-    }
     while (min < max)
     {
         nb[i] = min++;
