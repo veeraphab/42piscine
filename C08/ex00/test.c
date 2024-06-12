@@ -10,3 +10,4 @@ int main(int argc, char const *argv[])
     ft_putstr("hello");
     return (0);
 }
+// norminette -R CheckDefine 

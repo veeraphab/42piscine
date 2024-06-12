@@ -27,11 +27,11 @@ char	*ft_strdup(char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-#include <stdio.h>
-int	main(void)
-{
-	char source[] = "I am groot.";
-	char *target = ft_strdup(source);
-	printf("target = %s\n", target);
-	free(target);
-}
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	char source[] = "I am groot.";
+// 	char *target = ft_strdup(source);
+// 	printf("target = %s\n", target);
+// 	free(target);
+// }

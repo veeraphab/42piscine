@@ -17,16 +17,16 @@ int *ft_range(int min, int max)
     }
     return (nb);
 }
-#include <stdio.h>
-int main(void)
-{
-    int max = 20;
-    int min = 5;
-    int *nb = ft_range(min, max);
-    if (nb == NULL)
-        return 0;
-    for (int i = 0; i < max - min; i++)
-        printf("%d, ", nb[i]);
-    free(nb);
-    return 0;
-}
+// #include <stdio.h>
+// int main(void)
+// {
+//     int max = 20;
+//     int min = 5;
+//     int *nb = ft_range(min, max);
+//     if (nb == NULL)
+//         return 0;
+//     for (int i = 0; i < max - min; i++)
+//         printf("%d, ", nb[i]);
+//     free(nb);
+//     return 0;
+// }
